@@ -1,0 +1,35 @@
+
+.container-body h1{
+    display: flex;
+    justify-content: center;
+}
+
+.background-image {
+    position: relative;
+    background-image: url(images/fondo-gimnasio.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  /* .background-image h1 {
+    color: #ffd001;
+    text-shadow: -5px 5px 1px #ffffff;
+    font-size: 7em;
+  } */
+  
+  .background-image p {
+    color: #dfb705;
+    text-shadow: -1px 1px 1px #ffffff;
+    font-size: 3em;
+  }
+  
+  #imagen-primer-parte {
+    width: 30em;
+  }
+  
