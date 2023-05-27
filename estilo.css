@@ -33,3 +33,9 @@
     width: 30em;
   }
   
+  .seccion-servicios h3{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: #ffffff;
+  }
