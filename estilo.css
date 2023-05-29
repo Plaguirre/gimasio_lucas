@@ -16,12 +16,25 @@
     align-items: center;
     text-align: center;
   }
-  
-  /* .background-image h1 {
-    color: #ffd001;
-    text-shadow: -5px 5px 1px #ffffff;
-    font-size: 7em;
-  } */
+
+  #boton_iniciar_sesion{
+    background-color: #252525;
+    color: #ffffff;
+  }
+
+  #boton_iniciar_sesion:hover{
+    background-color: #646464;
+  }
+
+  #boton_registrarse{
+    border: 2px solid #252525;
+    color: #252525;
+  }
+
+  #boton_registrarse:hover{
+    background-color: #646464;
+    color: #ffffff;
+  }
   
   .background-image p {
     color: #dfb705;
