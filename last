@@ -1,0 +1,35 @@
+[33mcommit c774b5e7716f3b1b6ac183108e4b267b0fb492f1[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Lautaro Aguirre <aguirre.lautaro@hotmail.com>
+Date:   Mon May 29 11:05:31 2023 -0300
+
+    se puso otra cosa
+
+[33mcommit 2512e7c1afd48de0cddd63fb496beec6ec1574a3[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Lautaro Aguirre <aguirre.lautaro@hotmail.com>
+Date:   Sat May 27 00:46:05 2023 -0300
+
+    pequeños cambios
+
+[33mcommit 4dc5d96a131ab7740ec0684d7a408a3594428ecd[m
+Author: Lautaro Aguirre <aguirre.lautaro@hotmail.com>
+Date:   Sat May 27 00:30:46 2023 -0300
+
+    +estilo al nav, agrega imagen y estilo al primer section
+
+[33mcommit 28f18441dd10ff8f3813ea7cc41cf28d1eef4b25[m
+Author: Lautaro Aguirre <aguirre.lautaro@hotmail.com>
+Date:   Fri May 26 19:42:01 2023 -0300
+
+    se da inicio a bootstrap junto a navbar y imagen de logo
+
+[33mcommit 68f1eabcad5b5152da792eea688909c3c7830a37[m
+Author: Lautaro Aguirre <aguirre.lautaro@hotmail.com>
+Date:   Fri May 26 16:40:33 2023 -0300
+
+    se cambia formato txt a index
+
+[33mcommit 46081a08b2da729808ff2f902942215f0bb7064a[m
+Author: Lautaro Aguirre <aguirre.lautaro@hotmail.com>
+Date:   Fri May 26 12:24:16 2023 -0300
+
+    se inicia repositorio index, comienza el proyecto
