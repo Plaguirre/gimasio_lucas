@@ -111,3 +111,14 @@
 {
   border: 2px solid #252525;
 }
+
+.iframe-mercadopago
+{
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1.5em;
+  margin-top: 30px;
+}
