@@ -1,119 +1,102 @@
-
-.container-body h1
-{
-    display: flex;
-    justify-content: center;
+.container-body h1 {
+  display: flex;
+  justify-content: center;
 }
 
-.background-image 
-  {
-    position: relative;
-    background-image: url(images/fondo-gimnasio.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-
-  #boton_iniciar_sesion
-  {
-    background-color: #252525;
-    color: #ffffff;
-  }
-
-  #boton_iniciar_sesion:hover
-  {
-    background-color: #646464;
-    border: 2px solid #ffffff;
-  }
-
-  #boton_registrarse
-  {
-    border: 2px solid #252525;
-    color: #252525;
-  }
-
-  #boton_registrarse:hover
-  {
-    background-color: #646464;
-    color: #ffffff;
-  }
-  
-  .background-image p 
-  {
-    color: #dfb705;
-    text-shadow: -1px 1px 1px #ffffff;
-    font-size: 3em;
-  }
-  
-  #imagen-primer-parte 
-  {
-    width: 30em;
-  }
-  
-  .seccion-servicios h3
-  {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-    color: #ffffff;
-  }
-
-  .card .card-img-top 
-  {
-    margin-top: 8%;
-    border-radius: 5%;
-    height: 90%;
-  }
-
-  .card .btn
-  {
-    background-color: #252525;
-    color: #ffffff;
-    border: 2px solid #252525;
-  }
-
-  .card .btn:hover
-  {
-    background-color: #646464;
-    border: 2px solid #ffffff;
-  }
-
-  .card
-  {
-   
-    margin-top: 20px;
-  }
-
-  h3
-  {
-    color: #ffffff;
-    text-shadow: -1px 1px 1px #dfb705;
-    font-size: 3em;
-  }
-
- .modal-dialog .modal-content {
-    background-color: #dfc348;
-    color: #252525;
+.background-image {
+  position: relative;
+  background-image: url(images/fondo-gimnasio.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
-.modal-dialog .modal-content .modal-footer button
-{
+#boton_iniciar_sesion {
   background-color: #252525;
   color: #ffffff;
 }
 
-#btn-modal-gimnasio
-{
+#boton_iniciar_sesion:hover {
+  background-color: #646464;
+  border: 2px solid #ffffff;
+}
+
+#boton_registrarse {
+  border: 2px solid #252525;
+  color: #252525;
+}
+
+#boton_registrarse:hover {
+  background-color: #646464;
+  color: #ffffff;
+}
+
+.background-image p {
+  color: #dfb705;
+  text-shadow: -1px 1px 1px #ffffff;
+  font-size: 3em;
+}
+
+#imagen-primer-parte {
+  width: 30em;
+}
+
+.seccion-servicios h3 {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  color: #ffffff;
+}
+
+.card .card-img-top {
+  margin-top: 8%;
+  border-radius: 5%;
+  height: 90%;
+}
+
+.card .btn {
+  background-color: #252525;
+  color: #ffffff;
   border: 2px solid #252525;
 }
 
-.iframe-mercadopago
-{
+.card .btn:hover {
+  background-color: #646464;
+  border: 2px solid #ffffff;
+}
+
+.card {
+
+  margin-top: 20px;
+}
+
+h3 {
+  color: #ffffff;
+  text-shadow: -1px 1px 1px #dfb705;
+  font-size: 3em;
+}
+
+.modal-dialog .modal-content {
+  background-color: #dfc348;
+  color: #252525;
+}
+
+.modal-dialog .modal-content .modal-footer button {
+  background-color: #252525;
+  color: #ffffff;
+}
+
+#btn-modal-gimnasio {
+  border: 2px solid #252525;
+}
+
+.iframe-mercadopago {
+  background-color: #97842f;
   color: #ffffff;
   display: flex;
   justify-content: center;
@@ -121,4 +104,73 @@
   text-align: center;
   font-size: 1.5em;
   margin-top: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#article-playlist {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#article-playlist button {
+  width: 20%;
+  height: 30px;
+  background-color: #dfb705;
+  color: #000000;
+  border: 2px solid #252525;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
+#playlistContainer {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  margin: auto;
+}
+
+#article-playlist button:hover {
+  background-color: #646464;
+  color: #ffffff;
+}
+
+#section-form {
+  display: flex;
+  justify-content: center;
+  background-color: #97842f;
+  margin-top: 30px;
+  padding-bottom:20px;
+}
+
+#formulario-contacto {
+  width: 70%;
+  margin-top: 30px;
+}
+
+#enviar-form {
+  background-color: #dfc348;
+  border: 1px solid #000000;
+  color: #252525;
+}
+
+#enviar-form:hover
+{
+  background-color: #646464;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+
+#pie-de-pagina
+{
+  background-color: #dfb705;
+  height: 110px;
+}
+
+.autoria{
+  margin: auto;
 }
