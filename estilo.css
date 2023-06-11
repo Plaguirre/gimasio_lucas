@@ -137,6 +137,7 @@ h3 {
 #article-playlist button:hover {
   background-color: #646464;
   color: #ffffff;
+  border: 1px solid #ffffff;
 }
 
 #section-form {
@@ -167,10 +168,23 @@ h3 {
 
 #pie-de-pagina
 {
-  background-color: #dfb705;
-  height: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #252525;
+  height: auto;
+  color: #ffffff;
+  padding-top: 30px;
+  padding-left: 20px;
+}
+#pie-de-pagina a
+{
+  color: #ffffff;
+  text-decoration: none;
 }
 
-.autoria{
+#derechosyautor{
+  padding-top: 30px;
+  font-size: 20em;
   margin: auto;
 }
