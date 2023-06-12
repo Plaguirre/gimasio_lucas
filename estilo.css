@@ -1,3 +1,4 @@
+/* body */
 .container-body h1 {
   display: flex;
   justify-content: center;
@@ -175,7 +176,7 @@ h3 {
   height: auto;
   color: #ffffff;
   padding-top: 30px;
-  padding-left: 20px;
+  padding-left: 10%;
 }
 #pie-de-pagina a
 {
@@ -187,4 +188,19 @@ h3 {
   padding-top: 30px;
   font-size: 20em;
   margin: auto;
+}
+
+/* LOGIN */
+
+#logo-login
+{
+  width: 20%;
+}
+
+#form-inicioSesion
+{
+  background-color: #252525;
+  padding: 20px;
+  border-radius: 10px;
+  color: #ffffff;
 }

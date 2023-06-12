@@ -19,3 +19,15 @@ function mostrarPlaylist(tipo) {
       playlistContainer.innerHTML = '<iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1E4jY1WOSNjgxX?utm_source=generator" width="100%" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>';
     }
   }
+
+  document.addEventListener('DOMContentLoaded', function() {
+    AOS.init();
+  });
+
+  function restablecerContrasena() {
+    alert("Se ha enviado un email para restablecer su contraseña");
+  }
+
+  function registroExitoso() {
+    alert("Se ha registrado correctamente");
+  }

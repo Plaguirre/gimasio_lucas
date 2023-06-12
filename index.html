@@ -8,6 +8,8 @@
   <link rel="stylesheet" href="estilo.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
 </head>
 
 <body style="background-color: #444444;" onload="cargarPlaylistDefault()">
@@ -25,47 +27,44 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Servicios
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Musculación</a></li>
+              <li><a class="dropdown-item" href="#servicios">Musculación</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" href="#">Aerofit</a></li>
+              <li><a class="dropdown-item" href="#servicios">Aerofit</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" href="#">Full pass</a></li>
+              <li><a class="dropdown-item" href="#servicios">Full pass</a></li>
             </ul>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Nosotros
+              Contacto
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Quienes Somos</a></li>
+              <li><a class="dropdown-item" href="#formulario-contacto">Formulario</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" href="#">Donde estamos</a></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
-              <li><a class="dropdown-item" href="#">Contacto</a></li>
+              <li><a class="dropdown-item" href="https://web.whatsapp.com" target="_blank">Enviar Whatsapp</a></li>
             </ul>
 
           </li>
         </ul>
         <form class="d-flex">
-          <button class="btn btn-success" id="boton_iniciar_sesion" type="submit" style="margin-right: 5px;">Iniciar
-            Sesión</button>
-          <button class="btn btn-outline-success" type="submit" id="boton_registrarse"
-            style="margin-right: 15px;">Registrarse</button>
+          <a href="login.html"><button class="btn" type="button" id="boton_iniciar_sesion"
+              style="margin-right: 5px;">Iniciar
+              Sesión</button></a>
+          <a href="registro.html"><button class="btn btn-outline-success" id="boton_registrarse" type="button"
+              style="margin-right: 15px;">Registrarse</button></a>
         </form>
       </div>
     </div>
@@ -76,21 +75,22 @@
         <div class="col-12 p-0">
           <div class="background-image">
             <!-- <h1>You Fitness</h1> -->
-            <img id="imagen-primer-parte" src="images/logo.png" alt="logo">
-            <p>Fuerte en la barra, fuerte en la vida.</p>
+            <img id="imagen-primer-parte" src="images/logo.png" alt="logo" class="aos" data-aos="fade-up"
+              data-aos-duration="2000">
+            <p class="aos" data-aos="fade-up" data-aos-duration="2000">Fuerte en la barra, fuerte en la vida.</p>
           </div>
         </div>
       </div>
     </div>
   </header>
 
-  <main>
+  <main id="servicios">
     <div class="container seccion-servicios justify-content-center">
       <div class="row justify-content-center align-items-center" id="servicios">
         <h3>Nuestros servicios</h3>
         <div class="row" style="margin-left: 5em;">
           <div class="col text-center">
-            <div class="card bg-warning" style="width: 18rem;">
+            <div class="card bg-warning" data-aos="flip-left" data-aos-duration="1000" style="width: 18rem;">
               <img src="images/musculacion.jpg" class="card-img-top" alt="musculación" style="height: 12em;">
               <div class="card-body">
                 <h5 class="card-title">Musculación</h5>
@@ -102,7 +102,7 @@
             </div>
           </div>
           <div class="col text-center">
-            <div class="card bg-warning" style="width: 18rem;">
+            <div class="card bg-warning" data-aos="flip-right" data-aos-duration="1000" style="width: 18rem;">
               <img src="images/fullpass.jpg" class="card-img-top" alt="full pass" style="height: 12em;">
               <div class="card-body">
                 <h5 class="card-title">Pase Full</h5>
@@ -114,7 +114,7 @@
             </div>
           </div>
           <div class="col text-center">
-            <div class="card bg-warning" style="width: 18rem;">
+            <div class="card bg-warning" data-aos="flip-left" data-aos-duration="1000" style="width: 18rem;">
               <img src="images/aerobico.jpg" class="card-img-top" alt="aerobico" style="height: 12em;">
               <div class="card-body">
                 <h5 class="card-title">Aerobico</h5>
@@ -304,7 +304,7 @@
   <div id="playlistContainer"></div>
 
 
- <!-- formulario de contacto -->
+  <!-- formulario de contacto -->
   <section id="section-form">
     <form action="POST" id="formulario-contacto">
       <div class="col" style="margin-left: 20px">
@@ -337,7 +337,7 @@
   <footer id="pie-de-pagina">
     <div class="container-fluid">
       <div class="row">
-        <div class="col">
+        <div class="col text-center">
           <img src="images/logo.png" alt="logo" style="width: 20%;">
           <p>Fuerte en la barra, fuerte en la vida.</p>
         </div>
@@ -357,7 +357,6 @@
       </div>
       <div class="row text-center" id="derechosyautor">
         <h6>Sitio web desarrollado por: <b>Lautaro Aguirre</b></h6>
-        <h6>todos los derechos reservados</h6>
       </div>
     </div>
   </footer>
@@ -365,6 +364,7 @@
     integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
     crossorigin="anonymous"></script>
   <script src="js/script.js"></script>
+
 </body>
 
 </html>
