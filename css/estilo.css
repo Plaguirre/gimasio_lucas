@@ -6,7 +6,7 @@
 
 .background-image {
   position: relative;
-  background-image: url(images/fondo-gimnasio.jpg);
+  background-image: url(../images/fondo-gimnasio.jpg);
   background-size: cover;
   background-position: center;
   height: 100vh;
